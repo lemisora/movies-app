@@ -1,0 +1,14 @@
+.slide-mas{
+  height: 300px;
+
+}
+
+.btn-mas{
+  position: relative;
+  top: 25%;
+
+}
+.btn-mas {
+  --background: red;
+  --color: white; /* opcional, para que el texto o icono sea visible */
+}

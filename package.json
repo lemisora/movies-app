@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@angular/cli": "^16.2.11",
+    "@ionic/cli": "^7.2.1"
+  },
+  "dependencies": {
+    "firebase-tools": "^14.24.0"
+  }
+}

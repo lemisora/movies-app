@@ -3,8 +3,8 @@ import { HttpClient} from '@angular/common/http';
 import {PeliculaDetalle, RespuestaCredits, RespuestaMDB, RespuestaGeneros, Genre} from "../interfaces/interfaces";
 import {environment} from "../../environments/environment";
 
-const URL=environment.url;
-const API_KEY=environment.apiKey;
+const URL = environment.url;
+const API_KEY = environment.apiKey;
 @Injectable({
   providedIn: 'root'
 })
@@ -35,6 +35,7 @@ export class MoviesService {
 
 
   getFeature() {
+    // validaciones para fechas y se pueda ver las peliculas actuales
     const hoy = new Date();
     const ultimoDia = new Date( hoy.getFullYear(), hoy.getMonth() + 1, 0 ).getDate();
     const mes = hoy.getMonth() + 1;
